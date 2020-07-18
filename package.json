@@ -17,6 +17,7 @@
     "@mdx-js/mdx": "^1.6.11",
     "@mdx-js/react": "^1.6.11",
     "gatsby": "^2.23.12",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-mdx": "^1.2.27",
     "gatsby-plugin-sharp": "^2.6.19",
     "gatsby-remark-images": "^3.3.19",
