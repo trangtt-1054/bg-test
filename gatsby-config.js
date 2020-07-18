@@ -21,5 +21,23 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    `gatsby-plugin-sharp`, //don't need to resolve because the doc says that
+    `gatsby-transformer-sharp`,
+    {
+      resolve: `gatsby-plugin-mdx`, //for .md (markdown file)
+      options: {
+        extensions: [`.md`, `.mdx`],
+        gatsbyRemarkPlugins: [
+          //plugin we want to support from gatsbyRemark
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              //optimization option, kể cả có up lên ảnh 3000px thì lúc serve chỉ còn 1200
+              maxWidth: 1200,
+            },
+          },
+        ],
+      },
+    },
   ],
 }
