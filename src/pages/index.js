@@ -1,10 +1,10 @@
 import React from "react"
-import { Container } from "../components"
+import { Container, FeatureImage } from "../components"
 
 const IndexPage = () => {
   return (
     <Container>
-      <h1>Tran Thu Trang</h1>
+      <FeatureImage />
     </Container>
   )
 }

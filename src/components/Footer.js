@@ -56,6 +56,7 @@ const Footer = () => {
             <img src={data.twitter.publicURL} alt="Twitter Logo" />
           </a>
         </FooterSocialIcon>
+        <p>©2020 Originated by Trang Tran Thu</p>
       </FooterSocialWrapper>
     </FooterWrapper>
   )
