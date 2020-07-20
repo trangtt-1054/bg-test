@@ -4,6 +4,9 @@ export const NavWrapper = styled.nav`
   grid-row: 1 / 2;
   display: flex;
   align-items: center;
+  & img {
+    height: 30px;
+  }
   @media ${props => props.theme.breakPoints.tablet} {
     grid-column: 2 / span 6;
   }
