@@ -3,6 +3,7 @@ import {
   FooterWrapper,
   FooterSocialWrapper,
   FooterSocialIcon,
+  P,
 } from "../elements"
 import { useStaticQuery, graphql } from "gatsby"
 
@@ -56,7 +57,9 @@ const Footer = () => {
             <img src={data.twitter.publicURL} alt="Twitter Logo" />
           </a>
         </FooterSocialIcon>
-        <p>©2020 Originated by Trang Tran Thu</p>
+        <P size="xSmall" color="dark3">
+          ©2020 Originated by Trang Tran Thu
+        </P>
       </FooterSocialWrapper>
     </FooterWrapper>
   )
